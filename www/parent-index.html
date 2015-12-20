@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+        <link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-320x460.png" />
+        <title>My School :: App</title>
+        <link rel="stylesheet" href="css/framework7.css">
+        <link rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+    </head>
+    <body id="mobile_wrap">
+        <div class="statusbar-overlay"></div>
+        <div class="panel-overlay"></div>
+        <div class="panel panel-right panel-cover">
+            <div class="user_login_info">
+                <div class="user_thumb">
+                    <img src="images/photos/photo12.jpg" alt="" title="" />
+                </div>
+                <h2>Hi, username</h2>
+                <p>Edit your account settings</p>
+                <nav class="list-nav-small">
+                    <ul>
+                        <li class="about-icon-small"><a href="profile.html" class="close-panel">Profile</a></li>
+                        <li class="tools-icon-small"><a href="change-password.html" class="close-panel">Change Password</a></li>
+                        <li class="envelope-icon-small"><a href="attendance.html" class="close-panel">Attendance</a></li>
+                        <li class="lock-icon-small"><a href="feedback.html" class="close-panel">Feedback</a></li>
+                        <li class="toogle-icon-small"><a href="fee-payments.html" class="close-panel">Fee Details</a></li>
+                        <li class="features-icon-small"><a href="home-work.html" class="close-panel">Home Work</a></li>
+                        <li class="logout-icon-small">
+                            <form method="post" action="index.html">
+                                <input type="submit" name="submit" class="close-panel" id="submit" value="Logout" />
+                            </form>                            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="views">
+            <div class="view view-main">
+                <div class="pages">
+                    <div data-page="stuindex" class="page homepage">
+                        <div class="page-content">
+                            <div class="menu_open_icon"><a href="#" data-panel="left" class="open-panel"><img src="images/menu_open_circle.png" alt="" title="" /></a></div>
+                            <div class="minimal_intro">
+                                <div class="user_thumb">
+                                    <img src="images/photos/photo12.jpg" alt="" title="" />
+                                </div>
+                                <span>Welcome !</span> <br />
+                                Good to see you back.<br />
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/framework7.min.js"></script>
+        <script type="text/javascript" src="js/my-app.js"></script>
+        <script type="text/javascript" src="js/jquery.swipebox.js"></script>
+        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="js/email.js"></script>
+    </body>
+</html>
