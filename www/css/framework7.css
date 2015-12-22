@@ -2060,7 +2060,7 @@ html.ios-gt-6.pixel-ratio-3 .list-block .item-link.list-button:after {
   line-height: 21px;
   position: relative;
   overflow: hidden;
-  height: 42px;
+  height: 55px;
   text-overflow: ellipsis;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;

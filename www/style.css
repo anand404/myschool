@@ -189,7 +189,8 @@ transition-duration: 400ms;
 color:#FFFFFF;
 }
 .content-block {
-margin: 35px 0;
+// margin: 35px 0;
+margin: 0 0;
 padding: 0 15px;
 }
 /* 4.1 SIDE NAVIGATION */
@@ -346,7 +347,6 @@ background-size: auto 40%;
 background-repeat: no-repeat;
 background-position: 50% 35px;
 }
-
 .home-icon-small{
 background:url(images/icons/white/home.png);
 background-size: auto 50%;
@@ -358,6 +358,18 @@ background:url(images/icons/white/user.png);
 background-size: auto 50%;
 background-repeat: no-repeat;
 background-position: 10px 10px;
+}
+.responsive-icon-small {
+background:url(images/icons/white/responsive.png);
+background-size: auto 50%;
+background-repeat: no-repeat;
+background-position: 10px 10px;
+}
+.twitter-icon-small{
+background:url(images/icons/white/twitter.png);
+background-size: auto 50%;
+background-repeat: no-repeat;
+background-position: 10px 50%;
 }
 .features-icon-small{
 background:url(images/icons/white/settings.png);
@@ -1369,3 +1381,15 @@ background-position: 50% 15px;
 background-position: 50% 15px;
 }
 }
+div[class*="col-"] {
+  text-align: center;
+  padding: 5px;
+}
+.row {
+  margin-bottom: 15px;
+}       
+.row-border > .row > div[class*="col-"] {
+     border: 1px solid #ddd;
+}
+.listscroll{height: 100px; overflow-y: scroll;}
+.page_single .updateResize{height: 100px;}
